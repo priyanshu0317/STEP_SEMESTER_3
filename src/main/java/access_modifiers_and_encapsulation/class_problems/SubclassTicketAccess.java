@@ -1,0 +1,39 @@
+package access_modifiers_and_encapsulation.class_problems;
+
+public class SubclassTicketAccess {
+
+    public static String classifyAccess(String fieldModifier, String accessorContext) {
+        if (fieldModifier == null || accessorContext == null) {
+            return "DENIED";
+        }
+
+        switch (fieldModifier.toLowerCase()) {
+            case "public":
+                return "ALLOWED";
+            case "protected":
+                if (accessorContext.equals("SAME_CLASS") ||
+                    accessorContext.equals("SAME_PACKAGE") ||
+                    accessorContext.equals("SUBCLASS_DIFFERENT_PACKAGE_OWN_TYPE")) {
+                    return "ALLOWED";
+                }
+                return "DENIED";
+            case "default":
+                if (accessorContext.equals("SAME_CLASS") || accessorContext.equals("SAME_PACKAGE")) {
+                    return "ALLOWED";
+                }
+                return "DENIED";
+            case "private":
+                if (accessorContext.equals("SAME_CLASS")) {
+                    return "ALLOWED";
+                }
+                return "DENIED";
+            default:
+                return "DENIED";
+        }
+    }
+
+    public static void main(String[] args) {
+        System.out.println(classifyAccess("protected", "SUBCLASS_DIFFERENT_PACKAGE_OWN_TYPE"));
+        System.out.println(classifyAccess("protected", "SUBCLASS_DIFFERENT_PACKAGE_PARENT_TYPE"));
+    }
+}
