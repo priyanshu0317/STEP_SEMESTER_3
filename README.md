@@ -1,5 +1,29 @@
 # STEP_SEMESTER_3
 
+## Date: 10-10-2026 (Session 3)
+
+**Today's Work:**
+- Implemented and verified all 10 Java problems for Session 3 (Week 3) under the `object_oriented_programming` package topic.
+- Live-Coding / Practice Problems:
+  - Transition from parallel arrays to OOP `PlacementRecord` class with constructor, array of objects, and formatted output (`PlacementRecord.java`).
+  - Encapsulated `MessWallet` with private balance, opening balance validation, topUp, deduct validation, and read-only balance getter (`MessWallet.java`).
+  - Overloaded constructors for `Course` using `this(...)` constructor chaining and total credits calculation (`Course.java`).
+  - Reference copying and object identity check with `IdCard` demonstrating `==` reference comparison vs modified state (`IdCard.java`).
+  - Instance vs static members with `Student` class tracking shared `collegeName` and incrementing `studentCount` accessed statically (`Student.java`).
+- Assignment Problems:
+  - Transition from parallel arrays to OOP `BookInventory` class with constructor and instance method (`BookInventory.java`).
+  - Encapsulated `PayrollAccount` with private salary and bonus, bonus crediting, percentage tax deduction, and net salary getter (`PayrollAccount.java`).
+  - Overloaded constructors for `Employee` handling permanent employees and interns via `this(...)` chaining (`Employee.java`).
+  - Reference copying with `HallTicket` demonstrating shared reference modification vs separate instance comparison (`HallTicket.java`).
+  - Static vs instance design with `CompanyEmployee` sharing static company name and employee count across objects (`CompanyEmployee.java`).
+- Created and pushed `feature/session_3` containing all tested Java source files.
+
+**Next Session Plan:**
+- Proceed with Session 4 problems following the established course workflow.
+
+**Issues Faced:**
+- Resolved potential class name collision between Assignment M3 and M5 by uniquely naming M5 as `CompanyEmployee` while preserving package integrity.
+
 ## Date: 09-10-2026 (Session 2)
 
 **Today's Work:**
