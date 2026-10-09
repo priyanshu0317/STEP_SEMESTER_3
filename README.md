@@ -1,5 +1,29 @@
 # STEP_SEMESTER_3
 
+## Date: 09-10-2026 (Session 2)
+
+**Today's Work:**
+- Implemented and verified all 10 Java problems for Session 2 (Week 2) under the `string` package topic.
+- Live-Coding / Class Problems:
+  - Vowel & Consonant Counter with case-insensitive character evaluation (`VowelConsonantCounter.java`).
+  - CSV Student Record Parser validating field counts and formatting student details (`CsvStudentRecordParser.java`).
+  - File Extension Validator checking permitted extensions (`FileExtensionValidator.java`).
+  - Masked Phone Number Formatter validating 10 digits and masking the first 6 digits (`MaskedPhoneNumberFormatter.java`).
+  - Bank Transaction Reference Generator & Validator normalizing bank codes and validating reference structures (`BankTransactionReferenceValidator.java`).
+- Assignment Problems:
+  - ATM PIN Length Validator checking 4-digit requirement (`AtmPinLengthValidator.java`).
+  - Word Reversal Encoder reversing individual words in a sentence (`WordReversalEncoder.java`).
+  - Product Inventory CSV Parser validating product fields and formatted output (`ProductInventoryCsvParser.java`).
+  - Library ISBN Normalizer & Validator normalizing publisher codes and validating length and character types (`LibraryIsbnValidator.java`).
+  - Stop-Word-Filtered Word Frequency Report excluding filler words and sorting word frequency in descending order (`StopWordFrequencyReport.java`).
+- Created and pushed `feature/session_2` containing all tested Java source files.
+
+**Next Session Plan:**
+- Proceed with Session 3 problems following the established course workflow.
+
+**Issues Faced:**
+- None. All programs compiled and passed runtime verification with sample and edge cases.
+
 ## Date: 09-10-2026
 
 **Today's Work:**
