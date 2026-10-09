@@ -1,5 +1,29 @@
 # STEP_SEMESTER_3
 
+## Date: 10-10-2026 (Session 4)
+
+**Today's Work:**
+- Implemented and verified all 10 Java problems for Session 4 (Week 4) under the `constructors_and_keywords` package topic.
+- Live-Coding / Practice Problems:
+  - Library Book Cataloguing with `this(...)` constructor chaining and default pending status (`LibraryBook.java`).
+  - Payroll Batch Bonus Round using `this` to resolve field/parameter clashes during batch salary increments (`Employee.java`).
+  - Late Fees Calculator enforcing `final` method locking on formulas and skipping on-time accounts (`Account.java`).
+  - One-Time College Setup with static initialization blocks and batch student object creation (`SrmStudent.java`).
+  - Account Batch Payments dispatching polymorphic accounts using `instanceof` and tracking batch statistics (`AccountBatchPayments.java`).
+- Assignment Problems:
+  - Hackathon Registration with overloaded constructors for solo and team participants via `this(...)` chaining (`Participant.java`).
+  - Canteen Inventory Batch Restock using `this` to update inventory quantities (`Item.java`).
+  - Parking Overstay Fine Calculator with `final` fine computation methods and on-time validation (`ParkingTicket.java`).
+  - Library Membership Card Setup using static initialization blocks executed once for batch issuance (`MembershipCard.java`).
+  - Canteen Closing-Time Payment Dispatch using `instanceof` type checking for credit card fee calculations and running totals (`CanteenPaymentDispatch.java`).
+- Created and pushed `feature/session_4` containing all tested Java source files.
+
+**Next Session Plan:**
+- Proceed with Session 5 problems following the established course workflow.
+
+**Issues Faced:**
+- None. All programs compiled and passed runtime verification with sample inputs and boundary cases.
+
 ## Date: 10-10-2026 (Session 3)
 
 **Today's Work:**
