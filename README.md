@@ -1,5 +1,29 @@
 # STEP_SEMESTER_3
 
+## Date: 10-10-2026 (Session 5)
+
+**Today's Work:**
+- Implemented and verified all 10 Java problems for Session 5 (Week 5) under the `access_modifiers_and_encapsulation` package topic.
+- Live-Coding / Practice Problems:
+  - Movie Ticket Field Visibility Checker classifying access across same class, package, and different packages with batch summaries (`MovieTicketAccessChecker.java`).
+  - Subclass Ticket Access implementing protected access across packages with own-type vs parent-type references (`SubclassTicketAccess.java`).
+  - Seat Booking Encapsulation Guard enforcing constructor validation and silent boundary rejections on state transitions (`CineScreen.java`).
+  - MovieBookingProfile JavaBean with constructor chaining and write-only OTP property (`MovieBookingProfile.java`).
+  - Immutable Booking Receipt and nightly batch settlement with defensive array copying and wither pattern (`BookingReceiptSettlement.java`).
+- Assignment Problems:
+  - Membership Field Reach Checker grouping access classification by modifier (`MembershipFieldReachChecker.java`).
+  - Reference Desk Subclass Reach identifying the first denied access attempt in ordered streams (`ReferenceDeskSubclassReach.java`).
+  - Book Copy Circulation Guard protecting circulation counters with validated method boundaries (`BookCopyCirculationGuard.java`).
+  - LibraryMember JavaBean with write-once membershipId and write-only security answer (`LibraryMember.java`).
+  - Immutable Loan Receipt & Nightly Circulation Ledger handling defensive copies, wither methods, and null-tolerant polymorphic dispatch (`LoanReceiptLedger.java`).
+- Created and pushed `feature/session_5` containing all tested Java source files.
+
+**Next Session Plan:**
+- Proceed with Session 6 problems following the established course workflow.
+
+**Issues Faced:**
+- None. All 10 programs compiled and passed runtime verification against all problem statements and sample test cases.
+
 ## Date: 10-10-2026 (Session 4)
 
 **Today's Work:**
