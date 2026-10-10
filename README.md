@@ -1,5 +1,30 @@
 # STEP_SEMESTER_3
 
+## Date: 10-10-2026 (Session 8)
+
+**Today's Work:**
+- Implemented and verified all 10 Java problems for Session 8 (Week 8) under the `object_oriented_design` package topic.
+- Live-Coding / Practice Problems:
+  - Vehicle Rental System modeling abstract `Vehicle` base class with polymorphic daily rental rates (`Sedan`, `SUV`, `Truck`), `Customer`, `Rental` lifecycle, and availability guards (`VehicleRentalSystem.java`).
+  - Employee Leave Request Workflow enforcing state transitions across `LeaveStatus` (`PENDING`, `APPROVED`, `REJECTED`), reviewer authorization, and employee leave policies (`EmployeeLeaveRequestWorkflow.java`).
+  - Online Examination System evaluating heterogeneous question types (`MultipleChoiceQuestion`, `TrueFalseQuestion`, `ShortAnswerQuestion`) with attempt submission locking (`OnlineExaminationSystem.java`).
+  - Hotel Booking System managing room availability, reservation overlap checking, polymorphic pricing (`StandardRoom`, `DeluxeRoom`, `Suite`), and cancellation deadline enforcement (`HotelBookingSystem.java`).
+  - Payment Processing for a Shopping System decoupling payment processing via `PaymentMethod` abstraction (`CreditCardPayment`, `PayPalPayment`, `BankTransferPayment`) with order validation and state guards (`PaymentProcessingSystem.java`).
+- Assignment Problems (Category B):
+  - The Hostel Laundry Queue managing exclusive `WashingMachine` allocation, polymorphic `WashType` charges and durations (`QuickWash`, `NormalWash`, `HeavyWash`), and cycle completion (`HostelLaundryQueue.java`).
+  - The Assignment Submission Portal tracking `SubmissionStatus`, late penalty calculation rules (10% per day for `CodingAssignment`, 20% per day for `WrittenAssignment`), and resubmission guards (`AssignmentSubmissionPortal.java`).
+  - The Campus Premiere Ticket Counter booking up to 6 seats per transaction across categories (`RegularSeat`, `PremiumSeat`, `ReclinerSeat`), duplicate seat checks, and pre-show cancellation (`CampusPremiereTicketCounter.java`).
+  - The FitZone Membership Desk modeling gym memberships with discount rates (`MonthlyPlan`, `QuarterlyPlan`, `AnnualPlan`), check-in verification, and lifecycle state guards (`ACTIVE`, `FROZEN`, `EXPIRED`) (`FitZoneMembershipDesk.java`).
+  - The Campus Notice Broadcaster dispatching notices to target departments across polymorphic preferred `NotificationChannel` implementations (`EmailChannel`, `AppChannel`, `SmsChannel`, `WhatsAppChannel`) (`CampusNoticeBroadcaster.java`).
+- Answered all conceptual Quiz (UML relationships, multiplicity, association, composition, aggregation, state/sequence diagrams) and Concept Questions (encapsulation, composition vs inheritance, runtime polymorphism).
+- Created and pushed `feature/session_8` containing all tested Java source files.
+
+**Next Session Plan:**
+- Proceed with Session 9 problems following the established course workflow.
+
+**Issues Faced:**
+- None. Handled package-private namespace collisions by encapsulating problem-specific models as static nested classes within their respective top-level public classes. All 10 programs compiled and passed runtime tests.
+
 ## Date: 10-10-2026 (Session 7)
 
 **Today's Work:**
