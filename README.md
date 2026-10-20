@@ -1,5 +1,30 @@
 # STEP_SEMESTER_3
 
+## Date: 20-10-2026 (Session 9)
+
+**Today's Work:**
+- Implemented and verified all 10 Java problems for Session 9 (Week 9) under the `data_structures` package topic.
+- Live-Coding / Practice Problems (Category B Part A):
+  - Library Catalog Lookup using binary search over sorted ISBN records (`LibraryCatalogLookup.java`).
+  - Warehouse Grid Summary calculating total item inventory and row-major first-encountered max bin coordinates in a 2D grid (`WarehouseGridSummary.java`).
+  - Pair With Target Sum (Unsorted) using hash set lookup for optimal O(n) search (`PairWithTargetSumUnsorted.java`).
+  - Pair With Target Sum (Unsorted Array) implementing both hash set and sorted two-pointer approaches (`PairWithTargetSumArray.java`).
+  - Maximize Area Between Two Boundaries implementing two-pointer container with most water algorithm (`MaximizeAreaBetweenBoundaries.java`).
+- Assignment Problems (Category B Coding Assignment):
+  - Class Topper Finder determining student with highest total marks across 2D marks grid with tie-breaking (`ClassTopperFinder.java`).
+  - Merging Two Token Queues combining two pre-sorted token lists into one sorted list via two pointers (`MergeTokenQueues.java`).
+  - Most Popular Canteen Order counting item frequencies in a hash map and preserving first-seen order on ties (`MostPopularCanteenOrder.java`).
+  - Hot Weather Alert Windows using sliding window sum to detect contiguous blocks of size k meeting temperature threshold (`HotWeatherAlertWindows.java`).
+  - Ticket Price Slot Finder using binary search search-insert position to find index or insertion slot (`TicketPriceSlotFinder.java`).
+- Answered all conceptual Quiz (array access time complexity, insertion, data structure selection criteria, cache time-space trade-offs, Big-O loop combinations, linear data structures) and Concept Questions (sorted vs unsorted search, Big-O constant multipliers, linear vs non-linear traversals).
+- Created and pushed `feature/session_9` containing all tested Java source files.
+
+**Next Session Plan:**
+- Proceed with Session 10 problems following the established course workflow.
+
+**Issues Faced:**
+- None. All 10 programs compiled cleanly and passed runtime tests against problem specifications.
+
 ## Date: 10-10-2026 (Session 8)
 
 **Today's Work:**
