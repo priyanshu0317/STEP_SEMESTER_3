@@ -1,5 +1,30 @@
 # STEP_SEMESTER_3
 
+## Date: 01-11-2026 (Session 10)
+
+**Today's Work:**
+- Implemented and verified all 10 Java problems for Session 10 (Week 10) under the `linked_list` package topic.
+- Live-Coding / Practice Problems (Category B Part A):
+  - Bank Account Withdrawal System enforcing account rules for `SavingsAccount` (min balance 1000) and `CurrentAccount` (overdraft limit 5000) (`BankAccountWithdrawalSystem.java`).
+  - Campus Vehicle Pass System managing vehicle passes across `Bike`, `Car`, `EBike`, `ECar` and charging bay allocation via `Chargeable` interface (`CampusVehiclePassSystem.java`).
+  - Student Club Registration Management preventing duplicates using `equals()` and `hashCode()` keyed solely on roll number (`StudentClubRegistrationManagement.java`).
+  - Class Marks Grid Analysis evaluating 2D grid of student marks for student totals, subject averages, and topper identification (`ClassMarksGridAnalysis.java`).
+  - Payroll Register System calculating polymorphic compensation for `FullTimeStaff`, `PartTimeStaff`, and `InternStaff` with top-earner tracking (`PayrollRegisterSystem.java`).
+- Assignment Problems (Category B Coding Assignment):
+  - Priority Token Insertion implementing custom singly linked list with `addFirst`, `addLast`, and `insertAt` operations (`PriorityTokenInsertion.java`).
+  - Cancelled Orders Cleanup removing all matching code nodes in-place from singly linked list (`CancelledOrdersCleanup.java`).
+  - Reverse the Queue reversing a singly linked list in-place using three pointers without auxiliary node creation (`ReverseTheQueue.java`).
+  - Train Coaches Both Ways implementing doubly linked list with head and tail pointers, two-way traversal, and coach removal (`TrainCoachesBothWays.java`).
+  - Round-Robin Game Turns implementing circular singly linked list with tail pointer for turn rotation simulation (`RoundRobinGameTurns.java`).
+- Answered all conceptual Quiz (20 MCQs: inheritance accessibility, constructor chaining, method overriding vs overloading, dynamic dispatch, upcasting/downcasting, interfaces, abstract classes) and Concept Questions (10 questions: overloading vs overriding, constructor sequence, concrete vs abstract vs interface, multiple interface collisions, equals/hashCode contract, shallow vs deep copying, inner vs static nested classes, array complexities, runtime polymorphism, IS-A vs CAN-DO).
+- Created and pushed `feature/session_10` containing all tested Java source files.
+
+**Next Session Plan:**
+- Proceed with Session 11 problems following the established course workflow.
+
+**Issues Faced:**
+- None. All 10 programs compiled cleanly and passed runtime tests against problem specifications.
+
 ## Date: 20-10-2026 (Session 9)
 
 **Today's Work:**
