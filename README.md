@@ -1,5 +1,35 @@
 # STEP_SEMESTER_3
 
+## Date: 01-11-2026 (Session 11)
+
+**Today's Work:**
+- Implemented and verified all 15 Java problems for Session 11 (Week 11) under the `sorting_algorithms` package topic.
+- Live-Coding / Practice Problems (Category B Part A - Linked Lists):
+  - Print Circular Singly Linked List visiting all nodes exactly once using a do-while loop without relying on a null check (`PrintCircularSinglyLinkedList.java`).
+  - Insert at Tail of Doubly Linked List from head updating prev and next pointers for new node and neighbors (`InsertAtTailDoublyLinkedList.java`).
+  - Remove First K Nodes from Singly Linked List advancing head k times and emptying list when k >= length (`RemoveFirstKNodesSinglyLinkedList.java`).
+  - Delete N-th Node from Singly Linked List handling head deletion (n=1) and intermediate node unlinking (`DeleteNthNodeSinglyLinkedList.java`).
+  - Split Singly Linked List into Two Halves using fast and slow pointers, properly terminating first half with extra middle node on odd lengths (`SplitSinglyLinkedListInHalf.java`).
+  - Reverse First K Nodes of Singly Linked List in place while preserving order of remaining nodes (`ReverseFirstKNodesSinglyLinkedList.java`).
+  - Count Nodes in Singly Linked List iteratively traversing list to determine size (`CountNodesSinglyLinkedList.java`).
+  - Check if Singly Linked List is Empty returning true if head is null (`CheckIfEmptySinglyLinkedList.java`).
+  - Insert at End of Circular Singly Linked List maintaining cycle to head for both empty and populated lists (`InsertAtEndCircularSinglyLinkedList.java`).
+  - Delete Last Node from Doubly Linked List traversing to tail and unlinking second-to-last node (`DeleteLastNodeDoublyLinkedList.java`).
+- Assignment Problems (Category B - Sorting Algorithms):
+  - The Notice Board Shuffle implementing optimized Bubble Sort with neighbor swaps, early termination flag, and sweep/swap metrics (`NoticeBoardShuffle.java`).
+  - The Hackathon Registration Desk implementing stable Insertion Sort shifting larger teams right to maintain registration order (`HackathonRegistrationDesk.java`).
+  - The Attendance Disorder Score implementing Merge Sort counting inversion pairs in O(n log n) time (`AttendanceDisorderScore.java`).
+  - The Placement Cutoff implementing Quickselect with Lomuto partition (last element as pivot) finding k-th highest in average O(n) time (`PlacementCutoff.java`).
+  - The Contest Leaderboard implementing stable Counting Sort on marks [0, 100] descending with key transformation in O(n + 101) time (`ContestLeaderboard.java`).
+- Answered all conceptual Quiz (10 MCQs: node structure, dynamic memory sizing, O(n) index access, doubly linked list bidirectional traversal, circular list termination, dummy/sentinel nodes, Floyd cycle detection, in-place reversal space complexity, relinking space advantages, unlinking loss errors) and Concept Questions (5 questions: head vs tail insertion complexity, predecessor reference necessity for singly linked list deletion vs O(1) doubly linked list deletion, array vs linked list cache locality, relinking vs copying merge space complexity, next pointer role and null termination reliability).
+- Created and pushed `feature/session_11` containing all tested Java source files.
+
+**Next Session Plan:**
+- Proceed with Session 12 problems following the established course workflow.
+
+**Issues Faced:**
+- None. All 15 programs compiled cleanly and passed runtime tests against problem specifications.
+
 ## Date: 01-11-2026 (Session 10)
 
 **Today's Work:**
